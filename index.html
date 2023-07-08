@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>How England Prefers its Princesses</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="text.css">
+    <style>
+			
+            
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+h1{font-family: 'VT323', monospace;
+font-size: 70px;
+color:teal;
+font-weight: 200 900}
+#byline{font-size:13px}
+p{font-family:'Georgia';
+    margin: auto;
+    font-size: 20px;
+  width: 60%;
+  padding: 10px;}
+img{width: 135px; height: 22px}
+.container{
+  max-width: 900px;
+  margin: auto;
+  margin-left: 100px;
+  margin-right: 100px
+}
+.gif-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .gif-container img {
+            width: 50%;
+            height: auto;
+            margin-top:30px;
+            margin-bottom:30px
+        }
+    </style>
+</head>
+<body>
+<div class="section">
+    <h1 class="big"><center>How the UK Prefers its Princesses</center></h1>
+    <div class="image">
+        <div class="container">
+            <img src="grid-0.png"/>
+        </div>
+    </div>
+    <div class="intro">
+        <p id="byline">By Alex Colville</p>
+    </div>
+    
+    <div class="opener">
+        <div class="prose-container">
+        <p>Harry and Meghan's seccession from the royal family has made them two of the most unpopular royals in the UK (placed just above a serial-rapist in the royal family league tables).</p>
+        <p>The UK tabloids have it in for her. A senior editor I used to work under at the Sunday Times would regularly refer to her as "that bloody woman". 
+        </p>
+        <p>For all Meghan Markle's attention-seeking, she could have been the monarchy's best asset. She's modern, woke, interested in good causes. Shouldn't that be a redeeming quality?</p>
+        <p>But everyone loves the dutiful, motherly Kate Middleton, happily-married to Prince William and scandal-free for the past two decades. So what has Kate got that Meghan doesn't?</p>
+        <p>For this project, I scraped every headline and image caption for the two women in 2023 from the Daily Mail (a tabloid with the highest circulation in the UK, notorious for crude writing and misogyny).</p>
+        <br>
+        <p>It took a while.</p>
+    <div class="gif-container">
+    <img src="animate.gif">
+    </div>
+        </div>
+        <p>According to an NLTK natural language processor I ran the data through (you can find all my working here), the word choices used around Meghan were much more negative than those used around Kate. That makes sense, given all the scandals that have surrounded Meghan this year, especially after Prince Harry's very public rift with his brother.</p>
+        <p>Maybe the twenty most-used adjectives, verbs and nouns used around each of the two will tell us something about what Brits expect from their young royal women.</p>
+    </div>
+    </div>
+</div>
+<div class="chart-section">
+
+    <div class="full-size-image" style="max-width: 700px; margin: 0 auto;">
+        <script type='module' src='https://prod-uk-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-uk-a.online.tableau.com/t/colvap/views/Kate/kate' width='1325' height='682' hide-tabs toolbar='bottom' ></tableau-viz>
+    </div>
+</div>
+<br>
+<br>
+<div class="opener" style="margin: auto">
+    <div class="prose-container">
+        <p>The Princess of Wales has a large number of adjectives in her word cloud, editors choosing to parise her as 'dazzling' and 'elegant', while other associations surround her position as a mother, with 'children', 'family' and 'wedding' topping the list.</p> 
+        <p>Her actions are fairly passive, likely due to the number of public appearances covered by the Mail, often <a href="https://www.dailymail.co.uk/femail/article-12210831/Polka-dot-princess-Kate-radiant-Alessandra-Rich-dress-arrives-Garter-Day.html">commenting</a> on her 'radiant' clothes. The formula is how she 'appeared' on her 'visit' somewhere, and 'looked' wonderful 'wearing' something as she 'chatted' to her many fans.</p>
+        <p>Initially I thought it was weird they mentioned her age - 41 - so many times. Initially I thought this was evidence of obsession with female ageing, but it turned out that all figures categorized under the Mail's 'news' section have their ages mentioned.</p>
+        <p>Meghan, meanwhile, has all her articles listed under 'showbiz':</p>
+</div>
+</div>
+<br>
+<br>
+<div>
+    <div class="chart-section">
+
+        <div class="full-size-image" style="max-width: 700px; margin: 0 auto;">
+            <script type='module' src='https://prod-uk-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-uk-a.online.tableau.com/t/colvap/views/Meghan/Meghan' width='1325' height='682' hide-tabs toolbar='bottom' ></tableau-viz>
+        </div>"
+    </div>
+</div>
+<div class="section">
+    <div class="opener">
+        <div class="prose-container">
+            <p>Verbs are used more often for Meghan than Kate, showing her agency. These are more active and pugnacious, like 'told', 'spotted' and 'claimed'.</p>
+            <p>Many of her nouns indicate interest in her as a spouse, like 'wife' and 'wedding', but also her activism: 'Oprah', 'Netflix', 'interview'.</p>
+            <p>Meghan's adjectives are more negative: 'reportedly', 'controversial', 'explosive'.</p>
+    </div>
+<p>In Netflix's 'The Crown', a leitmotif is how the system of the royal family rewards those who are passive. As Eileen Atkins (who plays the forimdable Queen Mary) says, 'the less you do, the less you say, the better.'</p>
+<p>It seems that, to win the hearts of Middle England as a royal, it still pays to be passive.</p>
+
+</div>
+
+</body>
+
+</html>
